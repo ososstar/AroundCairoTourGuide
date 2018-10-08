@@ -27,25 +27,25 @@ public class ItemAdapter extends ArrayAdapter<Item> {
 
     @Override
     public View getView(int position, View convertView, @NonNull ViewGroup parent){
-        View listItemView = convertView;
-        if (listItemView == null){
-            listItemView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
+
+        if (convertView == null){
+            convertView = LayoutInflater.from(getContext()).inflate(R.layout.list_item, parent, false);
         }
         Item currentItem = getItem(position);
 
-        TextView ItemTextView = listItemView.findViewById(R.id.item_name);
+        TextView ItemTextView = convertView.findViewById(R.id.item_name);
         ItemTextView.setText(currentItem.getItemName());
 
-        ImageView ItemImageView = listItemView.findViewById(R.id.item_image);
+        ImageView ItemImageView = convertView.findViewById(R.id.item_image);
         ItemImageView.setImageResource(currentItem.getImageResourceId());
 
-        TextView ItemLocationTextView = listItemView.findViewById(R.id.item_location);
+        TextView ItemLocationTextView = convertView.findViewById(R.id.item_location);
         ItemLocationTextView.setText(currentItem.getItemLocation());
 
-        TextView ItemDetailsTextView = listItemView.findViewById(R.id.item_details);
+        TextView ItemDetailsTextView = convertView.findViewById(R.id.item_details);
         ItemDetailsTextView.setText(currentItem.getItemsDetails());
 
-        return listItemView;
+        return convertView;
     }
 
 }

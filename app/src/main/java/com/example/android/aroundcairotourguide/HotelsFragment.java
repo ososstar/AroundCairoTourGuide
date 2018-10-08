@@ -28,7 +28,7 @@ public class HotelsFragment extends Fragment {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.items_list, container,false);
         /** TODO: Insert all the code from the NumberActivity’s onCreate() method after the setContentView method call */
-        // Create a list of Food Items
+        // Create a list of Hotels
         final ArrayList<Item> items = new ArrayList<>();
         items.add(new Item(getString(R.string.hotelOne), getString(R.string.HotelOneLocation), getString(R.string.HotelOneDetails)));
         items.add(new Item(getString(R.string.HotelTwo), getString(R.string.HotelTwoLocation), getString(R.string.HotelTwoDetails)));

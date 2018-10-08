@@ -28,7 +28,7 @@ public class PlacesFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.items_list, container,false);
-        /** TODO: Insert all the code from the NumberActivity’s onCreate() method after the setContentView method call */
+
         // Create a list of Places
         final ArrayList<Item> items = new ArrayList<>();
         items.add(new Item(getString(R.string.placeOne), R.drawable.pyramids));
@@ -38,14 +38,14 @@ public class PlacesFragment extends Fragment {
         items.add(new Item(getString(R.string.placeFive), R.drawable.cairo_tower));
         items.add(new Item(getString(R.string.placeSix), R.drawable.azhar_park));
 
-        // Create a CategoryAdapter, whose data source is a list of Category. The
+        // Create an ItemAdapter, whose data source is a list of Item. The
         // adapter knows how to create list items for each item in the list.
         ItemAdapter adapter = new ItemAdapter(getActivity(), items);
         // Find the ListView object in the view hierarchy of the Activity.
         // There should be a ListView with the view ID called mainListView, which is declared in the
         // category_list.xml layout file.
         ListView listView = rootView.findViewById(R.id.list);
-        // Make the ListView use the CategoryAdapter we created above, so that the ListView
+        // Make the ListView use the ItemAdapter we created above, so that the ListView
         // will display list items for each {@link Word} in the list.
         listView.setAdapter(adapter);
 
