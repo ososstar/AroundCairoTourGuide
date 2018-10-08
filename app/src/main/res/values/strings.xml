@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">AroundCairo TourGuide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="kosharyDetails">Kushari, also koshari, is an Egyptian dish originally made in the 19th century, made of rice, macaroni, and lentils mixed together, topped with a spiced tomato sauce, and garlic vinegar, and garnished with chickpeas and crispy fried onions. A sprinkling of garlic juice, or garlic vinegar, and hot sauce are optional.</string>
+    <string name="foulDetails">Fool’s kind of like a Middle Eastern bean burrito, and tameya is Egypt’s version of falafel made with broad beans instead of chickpeas</string>
+    <string name="koftaDetails">This one is for the beef or lamb lovers. You must have had Kofta before, maybe you called it Kefteh, kefta or sikh kebab, so many names, all pointing to the same deliciousness!  This is the burger meat of the Middle East.  Adding lamb to the recipe gives it a richer flavor but feel free to omit that if you don’t like lamb.</string>
+    <string name="shawrmaDetails">also shaurma and other spellings, is a Middle Eastern meat preparation based on the doner kebab of Ottoman Turkey. Originally made of lamb or mutton, today\'s shawarma may also be chicken, turkey, beef, or veal, cut in thin slices and stacked in a cone-like shape on a vertical rotisserie. Thin slices are shaved off the cooked surface as it continuously rotates. Shawarma is one of the world\'s most popular street foods, especially in the countries of the Levant and the Arabian Peninsula</string>
+    <string name="Koshary">Koshary</string>
+    <string name="fool"><![CDATA[Fool & Taa\'mya]]></string>
+    <string name="kofta">Kofta</string>
+    <string name="shawrma">Shawerma</string>
+    <string name="hotelOne">Marriott Mena House</string>
+    <string name="HotelOneDetails">\nClosest Landmarks \n 0.7 km Giza Pyramids \n 1.3 km Sphinx \n 1.3 km Great Sphinx \n 1.7 km ikerinus pyramid \n 7.4 km Dream Park</string>
+    <string name="HotelTwo">New President Hotel</string>
+    <string name="HotelTwoDetails">\nClosest Landmarks \n 2.4 km Cairo Tower \n 2.5 km The Egyptian Museum \n 2.7 km Cairo Opera House \n 2.9 km Tahrir Square \n 4.8 km Al-Azhar Mosque</string>
+    <string name="HotelThree">Le Meridien Cairo Airport</string>
+    <string name="HotelThreeDetails">\nClosest Landmarks \n 6.9 km Baron\'s Palace \n 7 km Palace of Baron Emban \n 8 km Cinema Roxy \n 8.1 km Sahaba Mosque \n 9.5 km The 6th of October War Panorama</string>
+    <string name="transportOne">Cairo Metro</string>
+    <string name="TransportOneDetails">The Cairo Metro (Arabic: مترو أنفاق القاهرة‎, translit. Metro Anfāq al-Qāhirah, lit. \"Cairo Tunnel Metro\" or مترو الأنفاق  pronounced is the rapid transit system in Greater Cairo, Egypt. It was the first of only two full-fledged metro systems in Africa and only four in the Arab world. As of 2014, the Cairo Metro has 61 stations (mostly At-grade), of which 3 are transfer stations, with a total length of 77.9 kilometres (48.4 mi). The system consists of three operational lines numbered from 1 to 3. As of 2013, the metro carried nearly 4 million passengers per day.</string>
+    <string name="HotelOneLocation">Address: Pyramids\' Road, Giza, Cairo</string>
+    <string name="HotelTwoLocation">Address: 20.Taha Hussein Street, Zamalek, Cairo</string>
+    <string name="HotelThreeLocation">Address: Cairo international Airport terminal 3, Heliopolis \n</string>
+    <string name="TransportTwo">Uber</string>
+    <string name="TransportTwoDetails">it\'s preferable to use Uber rather than cabs, locals consider Uber cheaper and safer, you can also find the Uber price, get a screenshot, and use that to negotiate with cabs</string>
+    <string name="placeOne">Pyramids of Giza</string>
+    <string name="placeTwo">Saladin Citadel</string>
+    <string name="placeThree">Egyptian Museum</string>
+    <string name="placeFour"><![CDATA[Muizz & Khan El Khalili]]></string>
+    <string name="placeFive">Cairo Tower</string>
+    <string name="placeSix">Al Azhar Park</string>
+</resources>
